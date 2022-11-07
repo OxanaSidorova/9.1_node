@@ -1,0 +1,22 @@
+{
+  "name": "9tasks",
+  "version": "1.0.0",
+  "description": "task 9.1 node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OxanaSidorova/9.1_node.git"
+  },
+  "author": "Oxana Sidorova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OxanaSidorova/9.1_node/issues"
+  },
+  "homepage": "https://github.com/OxanaSidorova/9.1_node#readme",
+  "dependencies": {
+    "jest": "^29.2.2"
+  }
+}
