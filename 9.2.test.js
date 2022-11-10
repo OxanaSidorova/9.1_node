@@ -1,13 +1,25 @@
 const calculateBonus = require('./9.2')
 
-describe ("Testing bonus",()=> {
+describe ("Testing bonus value when sum>50",()=> {
     it ('sum of value', ()=> {
-    expect(calculateBonus(20,20)).toBe(40); //if sum <50 then bonus=sum. 20=20, 
-   
-    expect(calculateBonus(100,50)).toBe(150) ; //if sum >50 then bonus=50. 
+    expect(calculateBonus(100,50)).toBe(50); //bonus 50 
+    expect(calculateBonus(20,30)).toEqual(50) ; 
     })
-    it ('cheking bonus value',()=> {
-    expect(calculateBonus(20,20)).toBeGreaterThan(150) ; //if sum >50 then bonus=5
     
+    }
+    )
+  
+    describe ("Testing bonus =sum",()=> {
+        it ('check bonus value if sum <50 ', ()=> {
+        expect(calculateBonus(10,20)).toBe(30);  
     })
+    
+}
+)
+describe ("Testing bonus =sum",()=> {
+    it ('check bonus value if sum <50 tobe', ()=> {
+expect(calculateBonus(20,20)).toBeLessThan(50) ; 
 })
+    
+}
+)
